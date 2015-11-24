@@ -1,0 +1,39 @@
+{
+  "name": "angular-oop",
+  "version": "1.0.0",
+  "description": "Object Oriented Programming approach in AngularJS",
+  "main": "./lib/index.js",
+  "scripts": {
+  	"pretest": "browserify -d -g uglifyify lib/index.js > test/test.bundle.js",
+    "test": "mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/createvibe/angular-oop.git"
+  },
+  "keywords": [
+    "angular",
+    "inheritance",
+    "prototypal",
+    "oop",
+    "object oriented programming"
+  ],
+  "author": "Anthony Matarazzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/createvibe/angular-oop/issues"
+  },
+  "homepage": "https://github.com/createvibe/angular-oop#readme",
+  "dependencies": {
+  	"angular-inherits": "latest",
+	"angular": "*"
+  },
+  "devDependencies": {
+  	"mocha": "*",
+  	"browserify": "*",
+  	"uglifyify": "*",
+	"expect": "*",
+	"zombie": "*"
+  },
+  "readmeFile": "README.md"
+}
