@@ -95,4 +95,10 @@ Now see how you can extend this controller to take advantage of reusable code, u
 
 	module.exports = OtherController;
 
+Attach the controller to angular:
+
+	angular.module('app').controller('OtherController', require('OtherController.js'));
+
 You can install this module using NPM: `npm install angular-oop`
+
+This library is intended to be used with browserify.
