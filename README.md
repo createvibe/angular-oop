@@ -95,4 +95,4 @@ Now see how you can extend this controller to take advantage of reusable code, u
 
 	module.exports = OtherController;
 
-You can install this module using NPM: "npm install angular-oop"
+You can install this module using NPM: `npm install angular-oop`
