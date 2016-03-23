@@ -1,6 +1,6 @@
 {
   "name": "angular-oop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Object Oriented Programming approach in AngularJS",
   "main": "./lib/index.js",
   "scripts": {
